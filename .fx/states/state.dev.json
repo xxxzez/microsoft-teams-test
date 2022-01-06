@@ -1,0 +1,39 @@
+{
+    "solution": {
+        "provisionSucceeded": true,
+        "resourceNameSuffix": "5fc509",
+        "resourceGroupName": "test2-dev-rg",
+        "tenantId": "7ada8362-8e33-495c-bc9f-06c59fc97611",
+        "subscriptionId": "34f0bf6d-d0a4-4da1-8abb-a68e363e3188",
+        "subscriptionName": "Azure subscription 1",
+        "location": "West Europe",
+        "teamsAppTenantId": "{{solution.teamsAppTenantId}}"
+    },
+    "fx-resource-frontend-hosting": {
+        "domain": "test2devadeea1tab.z6.web.core.windows.net",
+        "endpoint": "https://test2devadeea1tab.z6.web.core.windows.net",
+        "storageResourceId": "/subscriptions/34f0bf6d-d0a4-4da1-8abb-a68e363e3188/resourceGroups/test2-dev-rg/providers/Microsoft.Storage/storageAccounts/test2devadeea1tab"
+    },
+    "fx-resource-identity": {
+        "identityName": "test2devadeea1",
+        "identityResourceId": "/subscriptions/34f0bf6d-d0a4-4da1-8abb-a68e363e3188/resourceGroups/test2-dev-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/test2devadeea1",
+        "identityClientId": "09b8dbf0-2f55-40bd-b115-0bbe9451dc9b"
+    },
+    "fx-resource-aad-app-for-teams": {
+        "clientId": "4fd4d6ed-bc72-4ac9-b0d2-150ae01de1f9",
+        "objectId": "c3e78f06-574e-4049-9d13-fefc553783aa",
+        "oauth2PermissionScopeId": "d5f310bc-0e62-42af-81af-d6ff21e7c0ce",
+        "tenantId": "7ada8362-8e33-495c-bc9f-06c59fc97611",
+        "oauthHost": "https://login.microsoftonline.com",
+        "oauthAuthority": "https://login.microsoftonline.com/7ada8362-8e33-495c-bc9f-06c59fc97611",
+        "applicationIdUris": "api://test2devadeea1tab.z6.web.core.windows.net/4fd4d6ed-bc72-4ac9-b0d2-150ae01de1f9",
+        "clientSecret": "{{fx-resource-aad-app-for-teams.clientSecret}}"
+    },
+    "fx-resource-appstudio": {
+        "teamsAppId": "f336e2be-f7d3-4b0b-a16e-dcf82118394a"
+    },
+    "fx-resource-simple-auth": {
+        "endpoint": "https://test2devadeea1simpleauth.azurewebsites.net",
+        "webAppResourceId": "/subscriptions/34f0bf6d-d0a4-4da1-8abb-a68e363e3188/resourceGroups/test2-dev-rg/providers/Microsoft.Web/sites/test2devadeea1simpleAuth"
+    }
+}
